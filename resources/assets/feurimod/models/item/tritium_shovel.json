@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "feurimod:items/tritium_shovel"
+  }
+}

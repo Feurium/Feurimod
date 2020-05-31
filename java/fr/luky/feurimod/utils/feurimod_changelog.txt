@@ -1,0 +1,63 @@
+==========================================================================
+                            Feurimod : Bêta 1.3
+**************************************************************************
+
+NOUVEAUTÉS :
+            - ajout du freezer
+
+MODIFICATIONS :
+            - patch des bugs de son avec certains blocs : la terre avait un bruit de stone lorsque on la possait
+            - changement de la couleur des flammes et des dégats avec les fluids modés
+
+**************************************************************************
+                En vous souhaitant bon jeu, Luky, Développer
+==========================================================================
+
+==========================================================================
+                            Feurimod : Bêta 1.2.2
+**************************************************************************
+
+NOUVEAUTÉS :
+             -ajout du drop du feurium chicken
+             -ajout du Feurium Biome
+             -ajout de l'arbre en feurium qui spawn dans le feurium biome
+             -ajout du spawn du poulet dans le feurium Biome
+             -ajout d'une cofiguration pour le mod : vous pouvez choisir si le feurium biome spawn ou pas et
+              l'ID du feurium chicken(attention cependant car une mauvaise ID peut casser le mod);
+              pour y accéder c'est : .minecraft/config/feurimod/feurimod.cfg
+
+MODIFICATIONS :
+            -les mineraix de tritium, d'iridium et de feurium spawns moins fréquament
+            -diminution de la puissance des hammers qui cassait trop vite les blocs
+
+**************************************************************************
+                En vous souhaitant bon jeu, Luky, Développer
+==========================================================================
+
+==========================================================================
+                             Feurimod : Bêta 1.2
+**************************************************************************
+
+NOUVEAUTÉS :
+            -ajout des armures, des outils, des blocks et des minerais en
+            protium, tritium, iridium
+            -Modification des texures de l'invenatire créeatif, du four, de l'enclume
+            de la table de craft, de la table d'enchant et du coffre
+            -ajout de fluids en protium, tritium, iridium et feurium
+            -ajout d'un mob : Le Feurium Chicken qui drope une nourriture qui vous réserve bien des surprises;
+            le feurium chicken ne spawn pas naturellement
+
+MODIFICATIONS :
+            -le minerais de feurium spawn moins fréquament
+            -Modification de l'enregistrement des blocs et items : moins lourd en mémoire RAM donc plus rapide à démarer
+
+À VENIR :
+            -ajout de l'orium
+            -ajout de plusieurs machines
+            -ajout d'un multi-bloc électrique
+            -et bien plus encore
+            -ajout d'un biome: le Feuiriumbiome où va spawner le feurium_chicken
+
+**************************************************************************
+                En vous souhaitant bon jeu, Luky, Développer
+==========================================================================

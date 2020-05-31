@@ -1,0 +1,91 @@
+itemGroup.feurimod_tab=Feurimod
+
+item.feurium_ingot.name=Feurium Ingot
+item.feurium_helmet.name=Feurium Helmet
+item.feurium_chestplate.name=Feurimod Chestplate
+item.feurium_leggings.name=Feurium Leggings
+item.feurium_boots.name=Feurium Boots
+item.feurium_helm.name=Feurium Helm
+item.feurium_axe.name=Feurium Axe
+item.feurium_hammer.name=Feurium Hammer
+item.feurium_pickaxe.name=Feurium Pickaxe
+item.feurium_shovel.name=Feurium Shovel
+item.feurium_sword.name=Feurium Sword
+item.feurium_fastsword.name=Feurium FastSword
+item.feurium_chicken.name=Feurium Chicken
+tile.feurium_block.name=Feurium Block
+tile.feurium_ore.name=Feurium Ore
+tile.feuriumstairs.name=Feurium Stairs
+tile.feurium_slab_half.name=Feurium Slab
+tile.feurium_slab_double.name=Double Feurium Slab
+fluid.molten_feurium=Molten Feurium
+tile.molten_feurium.name=Molten Feurium
+
+item.protium_ingot.name=Protium Ingot
+item.protium_helmet.name=Protium Helmet
+item.protium_chestplate.name=Protium Chestplate
+item.protium_leggings.name=Protium Leggings
+item.protium_boots.name=Protium Boots
+item.protium_helm.name=Protium Helm
+item.protium_axe.name=Protium Axe
+item.protium_hammer.name=Protium Hammer
+item.protium_pickaxe.name=Protium Pickaxe
+item.protium_shovel.name=Protium Shovel
+item.protium_sword.name=Protium Sword
+tile.protium_block.name=Protium Block
+tile.protium_stairs.name=Protium Stairs
+tile.protium_slab_half.name=Protium Slab
+tile.protium_slab_double.name=Double Protium Slab
+fluid.molten_protium=Molten Protium
+tile.molten_protium.name=Molten Protium
+
+item.iridium_ingot.name=Iridium Ingot
+item.iridium_helmet.name=Iridium Helmet
+item.iridium_chestplate.name=Iridium Chestplate
+item.iridium_leggings.name=Iridium Leggings
+item.iridium_boots.name=Iridium Boots
+item.iridium_helm.name=Iridium Helm
+item.iridium_axe.name=Iridium Axe
+item.iridium_pickaxe.name=Iridium Pickaxe
+item.iridium_shovel.name=Iridium Shovel
+item.iridium_sword.name=Iridium Sword
+item.iridium_hammer.name=Iridium Hammer
+tile.iridium_block.name=Iridium Block
+tile.iridium_stairs.name=Iridium Stairs
+tile.iridium_ore.name=Iridium Ore
+tile.iridium_slab_half.name=Iridium Slab
+tile.iridium_slab_double.name=Double Iridium Slab
+fluid.molten_iridium=Molten Iridium
+tile.molten_iridium.name=Molten Iridium
+
+item.tritium_ingot.name=Tritium Ingot
+item.tritium_helmet.name=Tritium Helmet
+item.tritium_chestplate.name=Tritium Chestplate
+item.tritium_leggings.name=Tritium Leggings
+item.tritium_boots.name=Tritium Boots
+item.tritium_helm.name=Tritium Helm
+item.tritium_axe.name=Tritium Axe
+item.tritium_pickaxe.name=Tritium Pickaxe
+item.tritium_shovel.name=Tritium Shovel
+item.tritium_sword.name=Tritium Sword
+item.tritium_hammer.name=Tritium Hammer
+tile.tritium_block.name=Tritium Block
+tile.tritium_stairs.name=Tritium Stairs
+tile.tritium_ore.name=Tritium Ore
+tile.tritium_slab_half=Tritium Slab
+tile.tritium_slab_double=Double Tritium Slab
+fluid.molten_tritium=Molten Tritium
+tile.molten_tritium.name=Molten Tritium
+
+item.iron_stick.name=Iron Stick
+
+entity.feurium_chicken.name=Feurium Chicken
+
+tile.feurium_grass.name=Feurium Dirt
+tile.feurium_log.name=Feurium Log
+tile.feurium_leaves.name=Feurium Leaves
+tile.feurium_planks.name=Feurium Planks
+tile.feurium_sapling.name=Feurium Sapling
+
+tile.freezer.name=Freezer
+container.freezer=Freezer

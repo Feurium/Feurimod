@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "feurimod:blocks/iridium_block",
+    "top": "feurimod:blocks/iridium_block",
+    "side": "feurimod:blocks/iridium_block"
+  }
+}

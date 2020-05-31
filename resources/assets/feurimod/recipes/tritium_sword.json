@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#",
+    "S"
+  ],
+  "key": {
+    "#": {
+      "item": "feurimod:tritium_ingot"
+    },
+    "S": {
+      "item": "feurimod:iron_stick"
+    }
+  },
+  "result": {
+    "item": "feurimod:tritium_sword"
+  }
+}

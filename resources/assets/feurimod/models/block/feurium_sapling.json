@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures":
+  {
+    "cross": "feurimod:blocks/feurium_sapling"
+  }
+}

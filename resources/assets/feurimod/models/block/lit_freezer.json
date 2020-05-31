@@ -1,0 +1,13 @@
+{
+  "parent": "block/orientable",
+  "textures":
+  {
+    "particle": "feurimod:blocks/freezer_front_off",
+    "up": "minecraft:blocks/snow",
+    "down": "minecraft:blocks/snow",
+    "north": "feurimod:blocks/freezer_front_off",
+    "east": "minecraft:blocks/snow",
+    "south": "feurimod:blocks/freezer_side2",
+    "west": "minecraft:blocks/snow"
+  }
+}

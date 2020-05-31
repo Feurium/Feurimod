@@ -1,0 +1,6 @@
+{
+  "variants":
+  {
+    "variant=default": { "model": "feurimod:iridium_slab_double" }
+  }
+}

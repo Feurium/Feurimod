@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "axis=y":  { "model": "feurimod:feurium_log" },
+    "axis=z":   { "model": "feurimod:feurium_log", "x": 90 },
+    "axis=x":   { "model": "feurimod:feurium_log", "x": 90, "y": 90 },
+    "axis=none": { "model": "feurimod:feurium_bark" }
+  }
+}

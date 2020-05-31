@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "feurimod:feurium_block",
+      "data": 0
+    }
+  },
+  "result": {
+    "item": "feurimod:feurium_slab_half",
+    "data": 0
+  }
+}

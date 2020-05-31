@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  #",
+    " # ",
+    "S  "
+  ],
+  "key": {
+    "#": {
+      "item": "feurimod:feurium_ingot"
+    },
+    "S": {
+      "item": "feurimod:iron_stick"
+    }
+  },
+  "result": {
+    "item": "feurimod:feurium_fastsword"
+  }
+}

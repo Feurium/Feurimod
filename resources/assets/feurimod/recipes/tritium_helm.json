@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#H#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "feurimod:tritium_ingot"
+    },
+    "H": {
+      "item": "feurimod:tritium_helmet"
+    }
+  },
+  "result": {
+    "item": "feurimod:tritium_helm"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_column",
+  "textures":
+  {
+    "end": "feurimod:blocks/feurium_log_top",
+    "side": "feurimod:blocks/feurium_log_side"
+  }
+}

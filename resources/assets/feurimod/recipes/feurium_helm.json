@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#H#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "feurimod:feurium_ingot"
+    },
+    "H": {
+      "item": "feurimod:feurium_helmet"
+    }
+  },
+  "result": {
+    "item": "feurimod:feurium_helm"
+  }
+}

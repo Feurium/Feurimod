@@ -1,0 +1,13 @@
+{
+  "variants":
+  {
+    "freezing=false,facing=north": {"model": "feurimod:freezer"},
+    "freezing=false,facing=east": {"model": "feurimod:freezer", "y": 90},
+    "freezing=false,facing=south": {"model": "feurimod:freezer", "y": 180},
+    "freezing=false,facing=west": {"model": "feurimod:freezer", "y": 270},
+    "freezing=true,facing=north": {"model": "feurimod:freezer"},
+    "freezing=true,facing=east": {"model": "feurimod:freezer", "y": 90},
+    "freezing=true,facing=south": {"model": "feurimod:freezer", "y": 180},
+    "freezing=true,facing=west": {"model": "feurimod:freezer", "y": 270}
+  }
+}

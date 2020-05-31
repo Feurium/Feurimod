@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "feurimod:blocks/molten_protium_block"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "variants":
+  {
+    "variant=default": { "model": "feurimod:tritium_slab_double" }
+  }
+}

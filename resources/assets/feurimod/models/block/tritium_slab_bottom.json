@@ -1,0 +1,9 @@
+{
+  "parent": "block/half_slab",
+  "textures":
+  {
+    "bottom": "feurimod:blocks/tritium_block",
+    "top": "feurimod:blocks/tritium_block",
+    "side": "feurimod:blocks/tritium_block"
+  }
+}

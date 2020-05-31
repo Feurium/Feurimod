@@ -1,0 +1,9 @@
+{
+  "variants":
+  {
+    "check_decay=true,decayable=true": { "model": "feurimod:feurium_leaves" },
+    "check_decay=true,decayable=false": { "model": "feurimod:feurium_leaves" },
+    "check_decay=false,decayable=true": { "model": "feurimod:feurium_leaves" },
+    "check_decay=false,decayable=false": { "model": "feurimod:feurium_leaves" }
+  }
+}

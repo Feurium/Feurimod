@@ -1,0 +1,9 @@
+{
+  "parent": "block/upper_slab",
+  "textures":
+  {
+    "bottom": "feurimod:blocks/iridium_block",
+    "top": "feurimod:blocks/iridium_block",
+    "side": "feurimod:blocks/iridium_block"
+  }
+}

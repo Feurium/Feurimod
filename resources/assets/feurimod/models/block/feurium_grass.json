@@ -1,0 +1,12 @@
+{
+  "parent": "block/orientable",
+  "textures": {
+    "particle": "feurimod:blocks/feurium_grass_side",
+    "up": "feurimod:blocks/feurium_grass_up",
+    "down": "minecraft:blocks/dirt",
+    "north": "feurimod:blocks/feurium_grass_side",
+    "east": "feurimod:blocks/feurium_grass_side",
+    "south": "feurimod:blocks/feurium_grass_side",
+    "west": "feurimod:blocks/feurium_grass_side"
+  }
+}

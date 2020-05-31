@@ -1,0 +1,6 @@
+{
+  "variants":
+  {
+    "variant=default": { "model": "feurimod:feurium_slab_double" }
+  }
+}
