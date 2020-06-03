@@ -2,4 +2,5 @@
 Le mod principal de Feurium. Développé par Ck_Luky. Textures par Naytox
 
 # feurium
-tous droits réservés
+
+**Feurium** est un serveur minecraft développé avec 2 mods : Feurium et Advanced ores
