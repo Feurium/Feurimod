@@ -29,6 +29,7 @@ public class ModFeurimod {
     public static FeurimodCommonProxy proxy;
 
     public static final CreativeTabs feurimodTab = new FeurimodTab("feurimod_tab");
+    public static final CreativeTabs weaponTab = new FeurimodWeapons("feurimod weapons")
 
     public ModFeurimod(){
         MinecraftForge.EVENT_BUS.register(new RegistryHandler());
