@@ -28,7 +28,6 @@ public class FastSword extends Item {
         this.maxStackSize = 1;
         this.setMaxDamage(material.getMaxUses());
         this.attackDamage = 3.0F + material.getAttackDamage();
-        setCreativeTab(feurimod.FEURIMODWEAPONS);
     }
 
     /**
