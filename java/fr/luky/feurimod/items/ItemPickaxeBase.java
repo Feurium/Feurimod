@@ -11,7 +11,7 @@ public class ItemPickaxeBase extends net.minecraft.item.ItemPickaxe implements I
 
     public ItemPickaxeBase(String name, ToolMaterial material) {
         super(material);
-        setRegistryName(name).setUnlocalizedName(name).setCreativeTab(ModFeurimod.feurimodTab).setMaxStackSize(1);
+        setRegistryName(name).setUnlocalizedName(name).setCreativeTab(ModFeurimod.feurimodTools).setMaxStackSize(1);
 
         ModItems.items.add(this);
     }
