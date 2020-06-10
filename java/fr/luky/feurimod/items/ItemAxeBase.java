@@ -14,6 +14,7 @@ public class ItemAxeBase extends net.minecraft.item.ItemAxe implements IHasModel
         super(material, damage, speed);
 
         setRegistryName(name).setUnlocalizedName(name).setCreativeTab(ModFeurimod.feurimodTab).setMaxStackSize(1);
+        setCreativeTab(feurimod.FEURIMODTOOLS);
 
         ModItems.items.add(this);
     }
