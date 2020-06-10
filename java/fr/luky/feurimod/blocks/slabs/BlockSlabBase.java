@@ -31,7 +31,6 @@ public abstract class BlockSlabBase extends net.minecraft.block.BlockSlab
 		setHardness(hardness);
 		setHarvestLevel(toolClass, level);
 		setSoundType(sound);
-		setCreativeTab(Feurimod.FEURIMODBLOCKS)
 		this.useNeighborBrightness = !this.isDouble();
 		
 		IBlockState state = this.blockState.getBaseState().withProperty(VARIANT, Variant.DEFAULT);
