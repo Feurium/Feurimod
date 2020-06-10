@@ -12,6 +12,6 @@ public class FeurimodMisc extends CreativeTabs{
 	
 	@override
 	public ItemStack getTabIconItem(){
-		return new ItemStack(modItems.MOLTEN_FEURIUM);
+		return new ItemStack(modItems.MOLTEN_FEURIUM_BUCKET);
 	}
 }
