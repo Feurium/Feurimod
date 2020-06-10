@@ -14,7 +14,7 @@ public class ItemSwordBase extends net.minecraft.item.ItemSword implements IHasM
 
     public ItemSwordBase(String name, ToolMaterial material) {
         super(material);
-        setRegistryName(name).setUnlocalizedName(name).setCreativeTab(ModFeurimod.feurimodTab).setMaxStackSize(1);
+        setRegistryName(name).setUnlocalizedName(name).setCreativeTab(ModFeurimod.feurimodWeapons).setMaxStackSize(1);
 
         ModItems.items.add(this);
     }
