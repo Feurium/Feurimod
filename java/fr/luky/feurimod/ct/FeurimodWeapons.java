@@ -1,4 +1,4 @@
-package fr.lukt.feurimod.ct;
+package fr.luky.feurimod.ct;
 
 import fr.luky.feurimod.init.ModItems;
 
