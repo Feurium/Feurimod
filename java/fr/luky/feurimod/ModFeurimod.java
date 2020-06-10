@@ -29,12 +29,12 @@ public class ModFeurimod {
     @SidedProxy(clientSide = Reference.CLIENT, serverSide = Reference.SERVEUR)
     public static FeurimodCommonProxy proxy;
 
-    public static final CreativeTabs feuriumBlocks = new FeurimodTab("feurimod blocks");
-    public static final CreativeTabs weaponTab = new FeurimodWeapons("feurimod weapons");
-    public static final CreativeTabs toolTab = new FeurimodTab("feurimod tools");
-    public static final CreativeTabs feuriumFood = new FeurimodTab("feurimod foodstuffs");
+    public static final CreativeTabs feurimodBlocks = new FeurimodBlocks("feurimod blocks");
+    public static final CreativeTabs feurimodWeapons = new FeurimodWeapons("feurimod weapons");
+    public static final CreativeTabs feurimodTools = new FeurimodTools("feurimod tools");
+    public static final CreativeTabs feuriumFood = new FeurimodFood("feurimod foodstuffs");
     public static final CreativeTabs feurimodTab = new FeurimodTab("feurimod_tab");
-    public static final CreativeTabs feurimodMisc = new FeurimodTab("feurimod miscellaneous");
+    public static final CreativeTabs feurimodMisc = new FeurimodMisc("feurimod miscellaneous");
 
     public ModFeurimod(){
         MinecraftForge.EVENT_BUS.register(new RegistryHandler());
