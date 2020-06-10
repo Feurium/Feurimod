@@ -18,6 +18,7 @@ public class ItemArmorBase extends net.minecraft.item.ItemArmor implements IHasM
         super(materialIn, renderIndexIn, equipmentSlotIn);
 
         setRegistryName(name).setUnlocalizedName(name).setCreativeTab(ModFeurimod.feurimodTab).setMaxStackSize(1);
+        setCreativeTab(feurimod.FEURIMODWEAPONS);
 
         ModItems.items.add(this);
     }
