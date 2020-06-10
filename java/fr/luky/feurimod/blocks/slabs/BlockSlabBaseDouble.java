@@ -8,7 +8,6 @@ public class BlockSlabBaseDouble extends BlockSlabBase
 	public BlockSlabBaseDouble(String name, Material materialIn, float resistance, float hardness, int level, String toolClass, net.minecraft.block.BlockSlab half, SoundType sound)
 	{
 		super(name, materialIn, resistance, hardness, level, toolClass, half, sound);
-		setCreativeTab(feurimod.FEURIMODBLOCKS);
 	}
 
 	@Override
