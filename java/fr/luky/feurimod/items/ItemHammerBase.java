@@ -21,7 +21,8 @@ public class ItemHammerBase extends ItemPickaxe implements IHasModel {
     public ItemHammerBase(String name, ToolMaterial material) {
         super(material);
 
-        setRegistryName(name).setUnlocalizedName(name).setCreativeTab(ModFeurimod.feurimodTab).setMaxStackSize(1);
+        setRegistryName(name).setUnlocalizedName(name).setCreativeTab(ModFeurimod.feurimodTools).setMaxStackSize(1);
+        
 
         ModItems.items.add(this);
     }
