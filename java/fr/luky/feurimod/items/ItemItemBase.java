@@ -9,7 +9,7 @@ import net.minecraft.item.Item;
 public class ItemItemBase extends Item implements IHasModel {
 
     public ItemItemBase(String name){
-        setRegistryName(name).setUnlocalizedName(name).setCreativeTab(ModFeurimod.feurimodTab);
+        setRegistryName(name).setUnlocalizedName(name);
 
         ModItems.items.add(this);
     }
