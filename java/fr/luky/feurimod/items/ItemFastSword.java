@@ -14,7 +14,7 @@ public class ItemFastSword extends FastSword implements IHasModel {
     public ItemFastSword(String name, ToolMaterial material) {
         super(material);
 
-        setRegistryName(name).setUnlocalizedName(name).setCreativeTab(ModFeurimod.feurimodTab);
+        setRegistryName(name).setUnlocalizedName(name).setCreativeTab(ModFeurimod.feurimodWeapons);
 
         ModItems.items.add(this);
     }
