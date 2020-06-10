@@ -1,6 +1,7 @@
 package fr.luky.feurimod;
 
 import fr.luky.feurimod.ct.FeurimodTab;
+import fr.luky.feurimod.ct.FeurimodWeapons;
 import fr.luky.feurimod.utils.Reference;
 import fr.luky.feurimod.utils.handlers.ConfigHandler;
 import fr.luky.feurimod.utils.handlers.RegistryHandler;
@@ -28,8 +29,12 @@ public class ModFeurimod {
     @SidedProxy(clientSide = Reference.CLIENT, serverSide = Reference.SERVEUR)
     public static FeurimodCommonProxy proxy;
 
+    public static final CreativeTabs feuriumBlocks = new FeurimodTab("feurimod blocks");
+    public static final CreativeTabs weaponTab = new FeurimodWeapons("feurimod weapons");
+    public static final CreativeTabs toolTab = new FeurimodTab("feurimod tools");
+    public static final CreativeTabs feuriumFood = new FeurimodTab("feurimod foodstuffs");
     public static final CreativeTabs feurimodTab = new FeurimodTab("feurimod_tab");
-    public static final CreativeTabs weaponTab = new FeurimodWeapons("feurimod weapons")
+    public static final CreativeTabs feurimodMisc = new FeurimodTab("feurimod miscellaneous");
 
     public ModFeurimod(){
         MinecraftForge.EVENT_BUS.register(new RegistryHandler());
