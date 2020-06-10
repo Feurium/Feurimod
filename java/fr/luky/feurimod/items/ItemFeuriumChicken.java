@@ -17,6 +17,7 @@ public class ItemFeuriumChicken extends ItemFood implements IHasModel {
         this.setHasSubtypes(true);
 
         setRegistryName(name).setUnlocalizedName(name).setCreativeTab(ModFeurimod.feurimodTab);
+        setCreativeTab(feurimod.FEURIMODFOOD;
 
         ModItems.items.add(this);
     }
