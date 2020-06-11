@@ -36,7 +36,7 @@ public class BlockLeaveBase extends BlockLeaves implements IHasModel {
         type = name.replaceAll("_leaves", "").trim();
         System.out.println(type);
 
-        setUnlocalizedName(name).setRegistryName(name).setCreativeTab(ModFeurimod.feurimodTab);
+        setUnlocalizedName(name).setRegistryName(name).setCreativeTab(ModFeurimod.feurimodBlocks);
         setSoundType(SoundType.PLANT);
         setDefaultState(this.blockState.getBaseState().withProperty(CHECK_DECAY, Boolean.valueOf(true)).withProperty(DECAYABLE, Boolean.valueOf(true)));
 
