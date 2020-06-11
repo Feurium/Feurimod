@@ -14,7 +14,7 @@ public class BlockStairsBase extends BlockStairs implements IHasModel {
     public BlockStairsBase(String name, IBlockState modelState) {
         super(modelState);
 
-        setRegistryName(name).setUnlocalizedName(name).setCreativeTab(ModFeurimod.feurimodTab);
+        setRegistryName(name).setUnlocalizedName(name).setCreativeTab(ModFeurimod.feurimodBlocks);
 
         ModBlocks.blocks.add(this);
         ModItems.items.add(new ItemBlock(this).setRegistryName(name));
