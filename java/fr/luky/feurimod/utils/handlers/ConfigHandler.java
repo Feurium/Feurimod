@@ -23,13 +23,13 @@ public class ConfigHandler {
         String category;
 
         category = "ID's";
-        config.addCustomCategoryComment(category, "Définisez les ID's pour les entitées et les GUI");
-        ENTITY_FEURIUM_CHICKEN = config.getInt("ID de l'entité FeuriumChicken", category, 120, 120, 200, "ID pour l'entitée FeuriumChicken");
-        GUI_FREEZER = config.getInt("ID du GUI du Freezer", category, 0, 0, 50, "ID pour le GUI du Freezer");
+        config.addCustomCategoryComment(category, "Define the entities and GUI IDs");
+        ENTITY_FEURIUM_CHICKEN = config.getInt("Feurium Chicken entity ID", category, 120, 120, 200, "ID for Feurium Chicken entity");
+        GUI_FREEZER = config.getInt("Freezer GUI ID", category, 0, 0, 50, "ID for Freezer GUI");
 
         category = "Biomes";
-        config.addCustomCategoryComment(category, "Definisez si vous voulez le spawn du FeuriumBiome dans l'overworld");
-        spawnFeuriumBiomeInOverworld : config.getBoolean("Spawn du FeuriumBiome dans l'overworld", category, true, "Definisez si vous voulez le spawn du FeuriumBiome dans l'overworld");
+        config.addCustomCategoryComment(category, "Define the Feurium Biome spawn in the overworld");
+        spawnFeuriumBiomeInOverworld : config.getBoolean("Feurium Biome spawn in the overworld", category, true, "Define the Feurium Biome spawn in the overworld");
 
         config.save();
     }
