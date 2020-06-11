@@ -16,7 +16,7 @@ public class BlockBlockBase extends Block implements IHasModel {
     public BlockBlockBase(String name, Material materialIn, float hardness, float resistance, int level, String toolClass, SoundType sound){
         super(materialIn);
 
-        setRegistryName(name).setUnlocalizedName(name).setCreativeTab(ModFeurimod.feurimodTab);
+        setRegistryName(name).setUnlocalizedName(name).setCreativeTab(ModFeurimod.feurimodBlocks);
         setHardness(hardness);
         setResistance(resistance);
         setHarvestLevel(toolClass, level);
