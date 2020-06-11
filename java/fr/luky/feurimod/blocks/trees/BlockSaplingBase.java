@@ -36,7 +36,7 @@ public class BlockSaplingBase extends BlockBush implements IGrowable, IHasModel 
     private static String type;
 
     public BlockSaplingBase(String name) {
-        setRegistryName(name).setUnlocalizedName(name).setCreativeTab(ModFeurimod.feurimodTab);
+        setRegistryName(name).setUnlocalizedName(name).setCreativeTab(ModFeurimod.feurimodMisc);
         setSoundType(SoundType.PLANT);
         this.setDefaultState(this.blockState.getBaseState().withProperty(STAGE, Integer.valueOf(0)));
 
