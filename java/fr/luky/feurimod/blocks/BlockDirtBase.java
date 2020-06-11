@@ -11,6 +11,7 @@ import net.minecraftforge.common.IPlantable;
 public class BlockDirtBase extends BlockBlockBase {
     public BlockDirtBase(String name, float hardness, float resistance, int level, String toolClass, SoundType sound) {
         super(name, Material.GROUND, hardness, resistance, level, toolClass, sound);
+        setCreativeTab(feurimod.feurimodBlocks);
     }
 
     @Override
