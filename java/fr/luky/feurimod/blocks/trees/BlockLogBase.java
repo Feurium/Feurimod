@@ -21,7 +21,7 @@ public class BlockLogBase extends net.minecraft.block.BlockLog implements IHasMo
         setRegistryName(name).setUnlocalizedName(name).setCreativeTab(ModFeurimod.feurimodTab);
         setSoundType(SoundType.WOOD);
         setDefaultState(this.blockState.getBaseState().withProperty(LOG_AXIS, EnumAxis.Y));
-        setCreativeTab(CreativeTab.FEURIMODBLOCKS);
+        setCreativeTab(CreativeTab.feurimodBlocks);
 
         ModBlocks.blocks.add(this);
         ModItems.items.add(new ItemBlock(this).setRegistryName(name));
