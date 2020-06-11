@@ -26,7 +26,7 @@ public abstract class BlockSlabBase extends net.minecraft.block.BlockSlab
 	public BlockSlabBase(String name, Material materialIn, float resistance, float hardness, int level, String toolClass, net.minecraft.block.BlockSlab half, SoundType sound)
 	{
 		super(materialIn);
-		setUnlocalizedName(name).setRegistryName(name).setCreativeTab(ModFeurimod.feurimodTab);
+		setUnlocalizedName(name).setRegistryName(name).setCreativeTab(ModFeurimod.feurimodBlocks);
 		setResistance(resistance);
 		setHardness(hardness);
 		setHarvestLevel(toolClass, level);
