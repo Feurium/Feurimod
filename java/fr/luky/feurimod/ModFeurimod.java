@@ -34,6 +34,10 @@ public class ModFeurimod {
     public static final CreativeTabs feurimodTools = new FeurimodTools("feurimod tools");
     public static final CreativeTabs feuriumFood = new FeurimodFood("feurimod foodstuffs");
     public static final CreativeTabs feurimodMisc = new FeurimodMisc("feurimod miscellaneous");
+    
+    public static Block oriumBasin;
+    OriumBasin = new BlockOriumBasin();
+    GameRegistry.registerBlock(oriumBasin, "orium_basin");
 
     public ModFeurimod(){
         MinecraftForge.EVENT_BUS.register(new RegistryHandler());
