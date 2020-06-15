@@ -15,22 +15,22 @@ import java.util.Random;
 
 public class WorldGenerationOres implements IWorldGenerator {
 
-    private WorldGenerator feurium_ore, iridium_ore, tritium_ore;
+    private WorldGenerator feurium_ore, iridium_ore, tritium_ore, orium_ore;
 
     public WorldGenerationOres(){
         feurium_ore = new WorldGenMinable(ModBlocks.FEURIUM_ORE.getDefaultState(), 5, BlockMatcher.forBlock(Blocks.STONE));
         iridium_ore = new WorldGenMinable(ModBlocks.IRIDIUM_ORE.getDefaultState(), 6, BlockMatcher.forBlock(Blocks.STONE));
         tritium_ore = new WorldGenMinable(ModBlocks.TRITIUM_ORE.getDefaultState(), 7, BlockMatcher.forBlock(Blocks.STONE));
+		orium_ore = new WorldGenMinable(ModBlocks.ORIUM_ORE.getDfaultState(), 8, BlockMatcher.forBlock(Blocks.NETHERACK));
     }
 
     @Override
     public void generate(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider) {
         switch(world.provider.getDimension()){
             case -1:
-
-
-
-
+				
+				runGenerator(orium_ore, world, random, chunkX, chunkZ, 1, 5, 10);
+				
                 break;
 
             case 0:
