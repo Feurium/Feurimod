@@ -66,6 +66,20 @@ public class ModItems {
     public static final Item TRITIUM_SWORD = new ItemSwordBase("tritium_sword", FeurimodUtils.ToolUtils.tritium_tool_mat);
     public static final Item TRITIUM_HAMMER = new ItemHammerBase("tritium_hammer", FeurimodUtils.ToolUtils.tritium_tool_hammer_mat);
 
+    //Orium
+    public static final Item ORIUM_INGOT = new ItemItemBase("orium_ingot");
+    public static final Item ORIUM_HELMET = new ItemArmorBase("orium_helmet", FeurimodUtils.ArmorUtils.tritium_armor_mat, 10, EntityEquipmentSlot.HEAD);
+    public static final Item ORIUM_CHESTPLATE = new ItemArmorBase("orium_chestplate", FeurimodUtils.ArmorUtils.tritium_armor_mat, 10, EntityEquipmentSlot.CHEST);
+    public static final Item ORIUM_LEGGINGS = new ItemArmorBase("orium_leggings", FeurimodUtils.ArmorUtils.tritium_armor_mat, 10, EntityEquipmentSlot.LEGS);
+    public static final Item ORIUM_BOOTS = new ItemArmorBase("orium_boots", FeurimodUtils.ArmorUtils.tritium_armor_mat, 10, EntityEquipmentSlot.FEET);
+    public static final Item ORIUM_HELM = new ItemArmorBase("orium_helm", FeurimodUtils.ArmorUtils.tritium_armor_helm_mat, 10, EntityEquipmentSlot.HEAD);
+    public static final Item ORIUM_AXE = new ItemAxeBase("orium_axe", FeurimodUtils.ToolUtils.tritium_tool_mat, 12.0F, -2F);
+    public static final Item ORIUM_PICKAXE = new ItemPickaxeBase("orium_pickaxe", FeurimodUtils.ToolUtils.tritium_tool_mat);
+    public static final Item ORIUM_SHOVEL = new ItemShovelBase("orium_shovel", FeurimodUtils.ToolUtils.tritium_tool_mat);
+    public static final Item ORIUM_SWORD = new ItemSwordBase("orium_sword", FeurimodUtils.ToolUtils.tritium_tool_mat);
+    public static final Item ORIUM_HAMMER = new ItemHammerBase("orium_hammer", FeurimodUtils.ToolUtils.tritium_tool_hammer_mat);
+
+    
     //Autres
     public static final Item IRON_STICK = new ItemItemBase("iron_stick");
 
