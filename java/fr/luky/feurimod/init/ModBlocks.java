@@ -21,7 +21,7 @@ public class  ModBlocks {
 
     //Feurium
     public static final Block FEURIUM_BLOCK = new BlockBlockBase("feurium_block", Material.IRON, 5.0F, 30.0F, 1, "pickaxe", SoundType.METAL);
-    public static final Block FEURIUM_STAIRS = new BlockStairsBase("feuriumstairs", ModBlocks.FEURIUM_BLOCK.getDefaultState());
+    public static final Block FEURIUM_STAIRS = new BlockStairsBase("feurium_stairs", ModBlocks.FEURIUM_BLOCK.getDefaultState());
     public static final Block FEURIUM_ORE = new BlockOreBase("feurium_ore", Material.ROCK, 3.0F, 15.0F, 3, "pickaxe", SoundType.STONE);
     public static final BlockSlab FEURIUM_SLAB_DOUBLE = new BlockSlabBaseDouble("feurium_slab_double", Material.IRON, 5.0F, 30.0F, 1, "pickaxe", ModBlocks.FEURIUM_SLAB_HALF, SoundType.METAL);
     public static final BlockSlab FEURIUM_SLAB_HALF = new BlockSlabBaseHalf("feurium_slab_half", Material.IRON, 5.0F, 30.0F, 1, "pickaxe", ModBlocks.FEURIUM_SLAB_HALF, ModBlocks.FEURIUM_SLAB_DOUBLE, SoundType.METAL);
@@ -54,7 +54,7 @@ public class  ModBlocks {
     public static final Block ORIUM_BLOCK = new BlockBlockBase("orium_block", material.IRON, 5.0F, 30.0F, 1, "pickaxe", SoundType.METAL);
     public static final Block ORIUM_STAIRS = new BlockStairsBase("orium_stairs", ModBlocks.TRITIUM_BLOCK.getDefaultState());
     public static final Block ORIUM_ORE = new BlockOreBase("orium_ore", Material.ROCK, 3.0F, 15.0F, 2, "pickaxe", SoundType.STONE);
-    public static final BlockSlab ORIUM_SLAB_DOUBLE = new BlockSlabBaseDouble("orium_double", Material.IRON, 5.0F, 30.0F, 1, "pickaxe", ModBlocks.TRITIUM_SLAB_HALF, SoundType.METAL);
+    public static final BlockSlab ORIUM_SLAB_DOUBLE = new BlockSlabBaseDouble("orium_slab_double", Material.IRON, 5.0F, 30.0F, 1, "pickaxe", ModBlocks.TRITIUM_SLAB_HALF, SoundType.METAL);
     public static final BlockSlab ORIUM_SLAB_HALF = new BlockSlabBaseHalf("orium_slab_half", Material.IRON, 5.0F, 30.0F, 1, "pickaxe", ModBlocks.TRITIUM_SLAB_HALF, ModBlocks.TRITIUM_SLAB_DOUBLE, SoundType.METAL);
     public static final Block MOLTEN_ORIUM_BLOCK = new BlockFluidBase("molten_orium", ModFluids.MOLTEN_ORIUM_FLUID, Material.LAVA);
     
