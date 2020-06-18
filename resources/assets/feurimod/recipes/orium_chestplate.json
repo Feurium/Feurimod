@@ -7,10 +7,10 @@
 	],
 	"key": {
 	  "#": {
-		"item":"orium_ingot"  
+		"item":"feurimod:orium_ingot"  
 	}
 	},
 	"result": {
-		"item":"orium_chestplate"
+		"item":"feurimod:orium_chestplate"
 	}
 }
